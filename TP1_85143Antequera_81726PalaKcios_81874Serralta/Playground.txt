@@ -1,0 +1,25 @@
+|Carre|
+Carre:= Carrera new.
+Carre tipo: 2.
+Carre id:12345.
+Carre Agregarcaballo_nombre: 'Charlie' jinete: 'Ivan'.
+Carre Agregarcaballo_nombre: 'Pirulo' jinete: 'Toby'.
+Carre Agregarcaballo_nombre: 'Mangulo' jinete: 'Fede'.
+Carre registrarpuesto: 'Charlie' puesto: 1.
+Carre registrarpuesto: 'Pirulo' puesto: 2.
+Carre registrarpuesto: 'Mangulo' puesto: 3.
+"Apuestas Simples"
+Carre Registrarapuestasimple_Numero: 1 Fecha: 0 Monto: 200 Dni:0  Caballo_Nombre:'Charlie' . 
+Carre Registrarapuestasimple_Numero: 3 Fecha: 2 Monto: 3000 Dni: 0 Caballo_Nombre: 'Pirulo' .
+Carre Registrarapuestasimple_Numero: 2 Fecha: 2 Monto: 400 Dni: 0 Caballo_Nombre: 'Mangulo' .
+"Apuestas Triples "
+Carre RegistrarapuestaTriple_Numero: 4 Fecha: 1 Monto: 260 Dni: 23 Caballouno_Nom: 'Charlie' Caballodos_Nom: 'Pirulo' Caballotres_Nom: 'Mangulo'. 
+Carre RegistrarapuestaTriple_Numero: 5 Fecha: 1 Monto: 100 Dni: 23 Caballouno_Nom: 'Charlie' Caballodos_Nom: 'Mangulo' Caballotres_Nom:'Pirulo'.
+Carre RegistrarapuestaTriple_Numero: 6 Fecha: 1 Monto: 250 Dni: 23 Caballouno_Nom: 'Pirulo' Caballodos_Nom: 'Mangulo' Caballotres_Nom:'Charlie'.
+
+Transcript show: (Carre Mostrar_cuanto_paga_apuesta_numero: 1).
+Transcript show: Carre Mostrar_resultados.
+Transcript show: Carre Conocer_la_apuesta_mayor.
+Transcript show: (Carre apuestastres: 200 Y: 300 ).
+Transcript show: (Carre asString  ) .
+
